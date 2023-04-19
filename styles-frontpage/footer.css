@@ -1,0 +1,138 @@
+.footer {
+    background-color: rgb(1, 1, 1);
+    margin-top: 100px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    opacity: 0.8;
+}
+
+.left-section-footer {
+    color: white;
+    flex: 0.75;
+    font-size: 50px;
+    font-weight: bold;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    line-height: 60px;
+}
+
+.left-section2-footer {
+    flex: 0.75;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    margin-top: -20px;
+}
+
+.adress {
+    margin-top: 65px;
+    line-height: 30px;
+    margin-bottom: 0;
+    margin-right: auto;
+}
+
+.phone-number {
+    margin-top: -120px;
+    margin-right: auto;
+}
+
+.email-contact {
+    margin-top: -140px;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.right-section-footer {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-section2-footer {
+    flex: 0.75;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    column-gap: 40px;
+    
+}
+
+.left-icons {
+    margin-left: auto;
+}
+
+.right-icons {
+    margin-right: auto;
+}
+
+.instagram-icon {
+    margin-bottom: 20px;
+    cursor: pointer;
+    display: block;
+}
+
+.youtube-icon {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.linkedin-icon {
+    height: 47px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    display: block;
+}
+
+.vimeo-icon {
+    margin-top: 20px;
+    height: 47px;
+    cursor: pointer;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 10px;
+    color: white;
+}
+
+
+.fname-div {
+    font-size: 20px;
+    margin-right: auto;
+}
+
+
+.lname-div {
+    font-size: 20px;
+    margin-right: auto;
+}
+
+.email-div {
+    font-size: 20px;
+    margin-right: auto;
+}
+
+.subject-div {
+    font-size: 20px;
+    margin-right: auto;
+}
+
+.submit-button {
+    grid-row-end: 5;
+    width: 120px;
+    background: none;
+}
+
+.textarea {
+    grid-row-end: 4;
+}
+

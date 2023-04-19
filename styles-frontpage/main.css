@@ -1,0 +1,59 @@
+main {
+    padding: 100px;
+    margin-top: 100px;
+
+    @media screen and (max-width: 1000px) {
+        padding: 50px;
+        margin-top: 140px;
+    }
+
+    @media screen and (max-width: 768px) {
+        padding: 20px;
+        margin-top: 140px;
+    }
+}
+
+.work-title {
+    font-size: 50px;
+    font-weight: bold;
+    display: inline-block;
+    width: 400px;
+    margin-bottom: 50px;
+    padding-bottom: 3px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(182, 182, 182);
+
+    @media screen and (max-width: 768px) {
+        font-size: 30px;
+        width: 100%;
+    }
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.thumbnails {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 100px;
+    row-gap: 100px;
+    
+    @media screen and (max-width: 1000px) {
+        grid-template-columns: 1fr;
+    }
+}
+
+.image {
+    width: 100%;
+    cursor: pointer;
+}
+
+.text-thumbnails {
+    font-size: 20px;
+    margin-top: 5px;
+    color: gray;
+}

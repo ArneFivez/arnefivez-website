@@ -1,0 +1,116 @@
+.video-section-meyy {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-meyy {
+    font-family: Roboto, Arial;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    width: 80px;
+    margin-bottom: 50px;
+    padding-bottom: 3px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(182, 182, 182);
+
+    @media screen and (max-width: 768px) {
+        font-size: 30px;
+        width: 100%;
+    }
+}
+
+.video-grid {
+    flex: 10;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    column-gap: 50px;
+    row-gap: 50px;
+
+    @media screen and (max-width: 1500px) {
+        grid-template-columns: 1fr;
+    }
+}
+
+.video-player {
+    height: 100%;
+}
+
+.video-title-meyy {
+    font-family: Roboto, Arial;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    width: auto;
+    margin-bottom: 20px;
+    padding-bottom: 3px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(182, 182, 182);
+
+    @media screen and (max-width: 768px) {
+        font-size: 30px;
+        width: 100%;
+    }
+}
+
+.bottom-section-stills-meyy1, .bottom-section-stills-meyy2,
+.bottom-section-stills-meyy3 {
+    flex: 10;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    column-gap: 50px;
+    row-gap: 50px;
+
+    @media screen and (max-width: 1500px) {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    @media screen and (max-width: 1000px) {
+        grid-template-columns: 1fr;
+    }
+}
+
+.title-wlw {
+    font-family: Roboto, Arial;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    display: inline-block;
+    width: auto;
+    margin-bottom: 40px;
+    padding-bottom: 3px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(182, 182, 182);
+
+    @media screen and (max-width: 768px) {
+        font-size: 30px;
+        width: 100%;
+    }
+}
+
+.title-sboth, .title-sun {
+    font-family: Roboto, Arial;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    display: inline-block;
+    width: auto;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    padding-bottom: 3px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(182, 182, 182);
+
+    @media screen and (max-width: 768px) {
+        font-size: 30px;
+        width: 100%;
+    }    
+}

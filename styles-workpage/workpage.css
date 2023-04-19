@@ -1,0 +1,153 @@
+.workpage-container {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.title-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto, Arial;
+  font-size: 40px;
+}
+
+.main-title {
+  flex: 1;
+  margin-right: auto;
+  font-weight: bold;
+  border-bottom-color: black;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  margin-bottom: 40px;
+}
+
+
+.second-title {
+  flex: 2;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 2fr 1fr 2fr;
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+
+  @media screen and (max-width: 1000px) {
+    grid-template-columns: 2fr;
+}
+}
+
+.segment {
+  margin: auto;
+  cursor: pointer;
+}
+
+.segment2 {
+  margin: auto;
+}
+
+.fiction-section {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.small-title-section {
+  margin-right: auto;
+  font-weight: bold;
+  border-bottom-color: black;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  font-size: 30px;
+  height: fit-content;
+}
+
+.fiction-image-section {
+  flex: 90%;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.fiction-column-left {
+  flex: 1;
+  margin-top: 20px;
+  display: grid;
+  row-gap: 80px;
+}
+
+.fiction-column-right {
+  flex: 1;
+  margin-top: 20px;
+  display: grid;
+  row-gap: 80px;
+}
+
+.fiction-images-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.fiction-images-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  flex: 90%
+}
+
+.image-title {
+  flex: 10%;
+  font-size: 20px;
+  margin-top: 5px;
+  color: gray;
+}
+
+.music-section {
+  flex: 8;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.music-image-section {
+  flex: 90%;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.commercial-section {
+  flex: 4;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.commercial-image-section {
+  flex: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 40px;
+  row-gap: 40px;
+  margin-top: 20px;
+
+  @media screen and (max-width: 1000px) {
+    grid-template-columns: 1fr;
+}
+}
+
+.commercial-images {
+  display: flex;
+  flex-direction: column;
+}
+
+.thumbnail-images-workpage {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}

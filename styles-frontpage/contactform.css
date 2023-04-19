@@ -1,0 +1,87 @@
+input {
+    height: 30px;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    border-bottom-width: 1px;
+    background-color: rgb(1, 1, 1);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+input[type="text"]
+{
+    color: white;
+    font-size: 20px;
+}
+
+input:hover {
+    border-bottom-width: 2px;
+}
+
+input:focus {
+    outline: none;
+}
+
+textarea {
+    font-size: 20px;
+    color: white;
+    font-family: Roboto, Arial;
+}
+.textarea {
+    height: 100px;
+    width: 450px;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    border-bottom-width: 1px;
+    background-color: rgb(1, 1, 1);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    display: block;
+    margin-top: 10px;
+}
+
+.textarea:hover {
+    border-bottom-width: 2px;
+}
+
+.textarea::placeholder {
+    color: white;
+    font-family: Roboto, Arial;
+    font-size: 20px;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.submit-button {
+    border: none;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.submit-button:hover {
+    opacity: 0.8;
+    transition: opacity 0.2s;
+}
+
+.fname {
+    display: block;
+}
+
+.lname {
+    display: block;
+}
+
+.email {
+    display: block;
+}
+
+.subject {
+    display: block;
+}
